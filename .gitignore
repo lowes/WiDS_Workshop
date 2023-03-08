@@ -45,6 +45,7 @@ data/*
 #data
 */data/*
 data
+dataset
 */test_data/*
 # tests
 !tests/configs/*.json
