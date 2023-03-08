@@ -1,0 +1,52 @@
+.venv
+env
+.DS_store
+cv_passoff/cv_passoff.egg-info/
+wadjet_reqs/
+*env38*
+.env*
+demos
+*.pyc
+#IDE stuff
+.vscode
+../.idea/
+/.idea/
+**/__pycache__
+__pycache__/
+
+.env
+rsync_exclude.txt
+*.zip
+*.tar.gz
+
+# folders
+demos/
+
+
+#log
+logs
+ca.crt
+*.csv
+*.json
+
+#models
+models_weights/*/*
+*.pt
+*.pth
+*.pkl
+
+#videos and data
+*/data/*
+data/*
+*.avi
+*.mp4
+
+
+#data
+*/data/*
+data
+*/test_data/*
+# tests
+!tests/configs/*.json
+
+
